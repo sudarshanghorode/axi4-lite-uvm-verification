@@ -1,0 +1,23 @@
+UVM_INFO @ 0: reporter [RNTST] Running test axi_lite_test...
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 69855000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO testbench.sv(425) @ 69855000: uvm_test_top.env.cov [COV] FUNCTIONAL COVERAGE (axi_lite_cov) = 100.00 %
+UVM_INFO testbench.sv(337) @ 69855000: uvm_test_top.env.scb [SCB] PASS: 526 writes and 497 reads checked, 0 mismatches
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 69855000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+** Report counts by severity
+UVM_INFO :    5
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[RNTST]     1
+[SCB]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time             69855000
+"design.sv", 198: tb_top.vif.c_slverr_write, 6985 attempts, 78 match
+"design.sv", 199: tb_top.vif.c_slverr_read, 6985 attempts, 80 match
+"design.sv", 200: tb_top.vif.c_b_backpress, 6985 attempts, 609 match
+"design.sv", 201: tb_top.vif.c_r_backpress, 6985 attempts, 1027 match
